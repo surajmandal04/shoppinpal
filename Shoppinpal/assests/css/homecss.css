@@ -1,0 +1,141 @@
+.addui-Tabs .addui-Tabs-tabHolder { display: flex; }
+
+.addui-Tabs .addui-Tabs-tabHolder .addui-Tabs-tab {
+  flex: 1;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  text-align: center;
+  padding: 8px 16px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.addui-Tabs-tab
+{
+	font-size: 125%;
+    font-family: sans-serif;
+}
+
+.addui-Tabs .addui-Tabs-tabHolder .addui-Tabs-tab.addui-Tabs-active {
+  padding-bottom: 5px;
+  border-bottom: 4px solid red;
+      
+}
+
+.addui-Tabs .addui-Tabs-content { display: none; }
+
+.addui-Tabs .addui-Tabs-content.addui-Tabs-active { display: block; }
+
+html, body { margin: 0; padding: 0; }
+
+#main-div{
+    border:1px;
+    display:table; 
+    width:60%;
+    height: 550px;
+    margin-right: auto; 
+    margin-left: auto;
+    box-shadow: 5px 5px 5px #888888;        
+}
+#div-0{ 
+    background-color:#33AFFF;
+    display: table-cell;
+    padding:3px;
+    width:30%;
+}
+#div-1{ 
+    display: table-cell;
+    padding:10px;
+    width:30%;
+}
+
+#icon-name
+{
+	text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    opacity: 0.08;
+}
+#sub-icon
+{
+	font-size: 10px;
+    position: relative;
+    text-align: center;
+    top: -30px;
+    font-style: italic;
+}
+
+#login_form,#register_form
+{
+	padding-top: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#login_form input[type='text'],#login_form input[type='password'], #register_form input[type='password'],#register_form input[type='text']
+{
+	width: 100%;
+	height:30px;
+	border: 0;
+    outline: 0;
+    margin-top: 20px;
+    background: transparent;
+    border-bottom: 1px solid #9CA2A5;
+    font-size:20px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+}
+
+#login_form input[type='checkbox']
+{
+	margin-top: 20px;
+    width: 6%;
+    height: 20px;
+}
+
+
+.submit_button
+{
+    outline: 0;
+	border: 1px;
+	margin-top: 20px;
+    background-color: red;
+    font-size: 18px;
+    height: 40px;
+    width: 100%;
+}
+
+#welcome-part
+{
+	text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    color: #6A7073;
+}
+
+#seller-part
+{
+	position: relative;
+    top: -30px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #6A7073;
+    font-size: 15px;
+}
+#remember-me
+{
+	font-size: 20px;
+    font-family: sans-serif;
+    color: #6A7073;
+}
+#forgot-password
+{
+	font-size: 20px;
+    font-family: sans-serif;
+    padding-left: 7%;
+}
+
+.error-message
+{
+	color: red;
+}

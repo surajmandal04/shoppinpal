@@ -1,0 +1,65 @@
+#main-div{
+    border:1px; 
+    width:30%;
+    height: 500px;
+    margin-right: auto; 
+    margin-left: auto;
+    box-shadow: 5px 5px 5px #888888;        
+}
+
+#forgot_form input[type='text'],#forgot_form input[type='password']
+{
+	width: 100%;
+	height:30px;
+	border: 0;
+    outline: 0;
+    margin-top: 20px;
+    background: transparent;
+    border-bottom: 1px solid #9CA2A5;
+    font-size:20px;
+}
+
+#name-div
+{
+	font-size: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #33AFFF;
+    height: 20%;
+    padding-top: 10%;
+    color: #6A7073;
+}
+
+.submit_button
+{
+    outline: 0;
+	border: 1px;
+	margin-top: 20px;
+    background-color: red;
+    font-size: 18px;
+    height: 40px;
+    width: 100%;
+}
+
+#forgot_form
+{
+	padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+.error-message
+{
+	color: red;
+}
+
+.success-message
+{
+	color:green;
+}
+
+.login-div
+{
+	    text-align: center;
+    font-size: 20px;
+}
