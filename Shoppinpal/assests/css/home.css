@@ -1,0 +1,88 @@
+#main-div{
+    border:1px;
+    display:table; 
+    width:60%;
+    height: 50px;
+    margin-right: auto; 
+    margin-left: auto;
+    box-shadow: 5px 5px 5px #888888;        
+}
+#div-1{ 
+    background-color:#33AFFF;
+    display: table-cell;
+    padding:3px;
+    width:30%;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #6A7073;
+}
+#div-2{ 
+    display: table-cell;
+    padding:10px;
+    width:30%;
+}
+
+#user-logout input[type='submit']
+{
+    outline: 0;
+    border: 1px;
+    margin-top: 20px;
+    background-color: red;
+    font-size: 18px;
+    height: 40px;
+    width: 100%;
+}
+#loop-form input[type='submit']
+{
+    outline: 0;
+    border: 1px;
+    margin-top: 20px;
+    background-color: red;
+    font-size: 18px;
+    height: 40px;
+    width: 35%;
+}
+
+#loop-form
+{
+    text-align: center;
+}
+
+#sub-div
+{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#loop_code
+{
+    margin-top: 20px;
+    width: 90%;
+    height: 150px;
+    font-size: 20px;
+}
+#answer-tag
+{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#answer-div
+{
+    background-color: skyblue;
+    width: 60%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#note-div
+{
+    color: #6A7073;
+    font-style: italic;
+}

@@ -42,8 +42,10 @@ if(isset($_POST['login'])) {
         $_SESSION['log-in']=true;
         $_SESSION['username']=$name;
         header( "Location: shoppinpal_home.php" );
+        exit();
     } else {
     	  $_SESSION['login_error']='*Enter invalid username and password';
     	  header( "Location: shoppinpal_index.php" );
+    	  exit();
     }
 }
